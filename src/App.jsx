@@ -1,8 +1,11 @@
+import SectionCounter from "./components/SectionCounter.jsx";
+import AccordionList from "./components/AccordionList.jsx";
 function App() {
   return (
-    <>
-      <h1>App</h1>
-    </>
+    <main className="container">
+      <SectionCounter />
+      <AccordionList />
+    </main>
   );
 }
 
