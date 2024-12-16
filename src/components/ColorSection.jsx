@@ -16,7 +16,9 @@ function ColorSection() {
           ></li>
         ))}
       </ul>
-      <div className="box">{activeColor.label}</div>
+      <div className="box" style={{ backgroundColor: activeColor.hex }}>
+        {activeColor.label}
+      </div>
     </section>
   );
 }
