@@ -39,7 +39,7 @@ function AccordionList() {
   return (
     <section className="my-4">
       <h2>Accordions</h2>
-      <div className="accordion">{accordions}</div>;
+      <div className="accordion">{accordions}</div>
     </section>
   );
 }
